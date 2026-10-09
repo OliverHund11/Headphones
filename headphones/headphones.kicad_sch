@@ -1,0 +1,911 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "eb258a1c-85ee-4cf1-b599-58cfcdbed7da")
+	(paper "A4")
+	(lib_symbols
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Headphone Rev1; Oliver Hund "
+		(exclude_from_sim no)
+		(at 43.18 16.51 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "03b84858-d6e3-4952-8f51-1aba4b513241")
+	)
+	(wire
+		(pts
+			(xy 101.6 78.74) (xy 154.94 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "154df51b-1468-4413-af03-1f36f95799fa")
+	)
+	(wire
+		(pts
+			(xy 101.6 68.58) (xy 154.94 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4253df40-59ed-4216-9e72-8f6b393d94b6")
+	)
+	(wire
+		(pts
+			(xy 100.076 59.69) (xy 156.21 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "482607c0-fa4b-42ab-9a43-1c4f1d6a55b8")
+	)
+	(wire
+		(pts
+			(xy 100.076 66.04) (xy 156.21 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51698fc5-5e67-4423-ba77-955f5f26504d")
+	)
+	(wire
+		(pts
+			(xy 101.6 71.12) (xy 154.94 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57220c68-bca3-4e28-ab7c-2ebb893e2292")
+	)
+	(wire
+		(pts
+			(xy 100.076 55.88) (xy 156.21 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c25b08-5139-4054-bf1c-4e043fe945b0")
+	)
+	(wire
+		(pts
+			(xy 101.6 76.2) (xy 154.94 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d243b96e-1561-4733-8177-fb1e69443c13")
+	)
+	(wire
+		(pts
+			(xy 101.6 73.66) (xy 154.94 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb5ed4b-93c5-4d92-9f22-e2c6e03e1b83")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "734d64f1-9b51-4699-9126-e81dd45f0af2")
+		(property "Reference" "#PWR05"
+			(at 162.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2197fc1b-83e1-466d-b518-be75b283c2c3")
+		)
+		(instances
+			(project ""
+				(path "/eb258a1c-85ee-4cf1-b599-58cfcdbed7da"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 156.21 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8279f34d-f9d4-47d0-ab35-f57374d3609b")
+		(property "Reference" "#PWR04"
+			(at 156.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.0V"
+			(at 160.02 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 156.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb4823de-77ee-447f-b1e2-5336be827883")
+		)
+		(instances
+			(project "headphones"
+				(path "/eb258a1c-85ee-4cf1-b599-58cfcdbed7da"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.076 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96e8a815-5e5b-48ff-b6b4-a036549ccb24")
+		(property "Reference" "#PWR02"
+			(at 93.726 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.266 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.076 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.076 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.076 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "432759da-f285-474e-895e-34af85ba0d1b")
+		)
+		(instances
+			(project ""
+				(path "/eb258a1c-85ee-4cf1-b599-58cfcdbed7da"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 100.076 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9aa42a1a-8d15-48c2-b14f-a0587bc32c53")
+		(property "Reference" "#PWR03"
+			(at 100.076 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 97.028 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.076 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.076 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 100.076 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dfdc608-aca7-4e8d-9e2d-8a4f32dcc723")
+		)
+		(instances
+			(project "headphones"
+				(path "/eb258a1c-85ee-4cf1-b599-58cfcdbed7da"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 100.076 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdf2897c-83cc-4b54-b3e4-860d0d4e6462")
+		(property "Reference" "#PWR01"
+			(at 100.076 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.0V"
+			(at 96.012 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.076 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.076 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 100.076 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "363b58ad-808c-4819-9bba-d10e266dd25a")
+		)
+		(instances
+			(project "headphones"
+				(path "/eb258a1c-85ee-4cf1-b599-58cfcdbed7da"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 156.21 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8209067-a534-4a7f-a3d7-f17485ce78f2")
+		(property "Reference" "#PWR06"
+			(at 156.21 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 159.512 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 156.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65eb4578-f723-4b1d-b741-5c5693ad22ca")
+		)
+		(instances
+			(project "headphones"
+				(path "/eb258a1c-85ee-4cf1-b599-58cfcdbed7da"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 51.054 50.546)
+		(size 50.546 51.816)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0faf7732-514d-48fb-a07a-f23bf9b5c140")
+		(property "Sheetname" "Power + Control"
+			(at 51.054 49.8344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Headphones_Power+Control.kicad_sch"
+			(at 51.054 102.9466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Mute" input
+			(at 101.6 68.58 0)
+			(uuid "58b5c220-2cbc-4642-a6a6-68afd76959a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SAI_FS" input
+			(at 101.6 71.12 0)
+			(uuid "05a14e94-4165-4903-94e8-c1c515e9089e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SAI_MCLK" input
+			(at 101.6 73.66 0)
+			(uuid "86b6bcc0-82a5-4bb8-a34e-c0f1e32efeaa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SAI_SCK" input
+			(at 101.6 76.2 0)
+			(uuid "38cd3741-11d8-4213-b0c7-22ef4e4bf981")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SAI_SD" input
+			(at 101.6 78.74 0)
+			(uuid "c5465820-e2e9-4f64-be74-517eb539952b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "headphones"
+				(path "/eb258a1c-85ee-4cf1-b599-58cfcdbed7da"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 50.8)
+		(size 50.546 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c14e9aa0-e4dc-4410-b0d0-927d9e1dd3a8")
+		(property "Sheetname" "Audio"
+			(at 154.94 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Headphones_Audio.kicad_sch"
+			(at 154.94 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Mute" input
+			(at 154.94 68.58 180)
+			(uuid "6161d72b-3c36-4dda-9996-2e4cfed320fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SAI_FS" input
+			(at 154.94 71.12 180)
+			(uuid "4cfe73c6-972d-4acc-9fa4-e8f69ae6d7e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SAI_MCLK" input
+			(at 154.94 73.66 180)
+			(uuid "325a3bb1-bb33-4f2b-a667-356091d9392f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SAI_SCK" input
+			(at 154.94 76.2 180)
+			(uuid "b10dc778-59f5-4ba4-9094-7a0b0a77c7a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SAI_SD" input
+			(at 154.94 78.74 180)
+			(uuid "c96032f1-1f0e-48fa-893c-e599db146360")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "headphones"
+				(path "/eb258a1c-85ee-4cf1-b599-58cfcdbed7da"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
