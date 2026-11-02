@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.0,
-          "height": 5.3,
-          "width": 5.3
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -51,7 +51,7 @@
         "silk_text_upright": false,
         "zones": {
           "border_display_style": 2,
-          "border_hatch_pitch": 0.1,
+          "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
           "fill_mode": 0,
@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -658,16 +658,24 @@
       {
         "filename": "headphones.kicad_sch",
         "name": "headphones",
-        "uuid": "eb258a1c-85ee-4cf1-b599-58cfcdbed7da"
+        "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ],
-    "used_designators": "D1-9,L1,AE1-2,#PWR1-70,#PWR88-90,#PWR99,#PWR101-102,#PWR104-106,#PWR110,C1-39,C49-52,C57-59,FB1,TP1-11,TP14-21,U1-4,U8,J1-2,P1,R1-25,SW1-4,TH1,X1,S1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "eb258a1c-85ee-4cf1-b599-58cfcdbed7da",
-      "headphones"
+      "Root"
+    ],
+    [
+      "0faf7732-514d-48fb-a07a-f23bf9b5c140",
+      "Power + Control"
+    ],
+    [
+      "c14e9aa0-e4dc-4410-b0d0-927d9e1dd3a8",
+      "Audio"
     ]
   ],
   "text_variables": {},
